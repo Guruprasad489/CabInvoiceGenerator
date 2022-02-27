@@ -39,7 +39,7 @@ namespace CabInvoiceGeneratorProgram
             }
         }
 
-        //Method to return invoice summary of a particular user by providing id(UC5)
+        //Method to return invoice summary of a particular user by providing id
         public UserCabInvoiceService ReturnInvoicefromRideRepository(int userId)
         {
             return new UserCabInvoiceService(userCabRides[userId], userCabInvoice[userId]);
